@@ -1,0 +1,60 @@
+; Buka project.godot yang berada di dalam repositori Tugas-Sejarah.
+config_version=5
+
+[application]
+config/name="Bandung 1946 — Garis Pertahanan"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[display]
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/size/min_width=640
+window/size/min_height=360
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+window/stretch/scale_mode="integer"
+
+[input]
+move_up={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"physical_keycode":87)]
+}
+move_left={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"physical_keycode":65)]
+}
+move_down={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"physical_keycode":83)]
+}
+move_right={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"physical_keycode":68)]
+}
+interact={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"physical_keycode":69)]
+}
+action={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"physical_keycode":74)]
+}
+pause={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"physical_keycode":4194305)]
+}
+
+[layer_names]
+2d_physics/layer_1="Lingkungan solid"
+2d_physics/layer_2="Pemain"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+2d/snap/snap_2d_transforms_to_pixel=true
+environment/defaults/default_clear_color=Color(0.231373, 0.188235, 0.164706, 1)
+

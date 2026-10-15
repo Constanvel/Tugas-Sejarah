@@ -1,0 +1,101 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1"]
+[ext_resource type="Theme" path="res://assets/ui/theme.tres" id="2"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2")
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.294, 0.329, 0.271, 1)
+
+[node name="Skyline" type="Polygon2D" parent="."]
+color = Color(0.231373, 0.188235, 0.164706, 1)
+polygon = PackedVector2Array(0, 288, 16, 288, 16, 224, 32, 224, 32, 208, 64, 208, 64, 224, 80, 224, 80, 288, 152, 288, 152, 256, 176, 256, 176, 240, 208, 240, 208, 256, 232, 256, 232, 304, 440, 304, 440, 256, 456, 256, 456, 240, 488, 240, 488, 256, 504, 256, 504, 304, 552, 304, 552, 208, 568, 208, 568, 192, 600, 192, 600, 208, 624, 208, 624, 288, 640, 288, 640, 360, 0, 360)
+
+[node name="Accent" type="ColorRect" parent="."]
+layout_mode = 0
+offset_bottom = 4.0
+offset_right = 640.0
+mouse_filter = 2
+color = Color(0.78, 0.42, 0.212, 1)
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="Center"]
+layout_mode = 2
+custom_minimum_size = Vector2(460, 0)
+
+[node name="Margin" type="MarginContainer" parent="Center/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 20
+
+[node name="Content" type="VBoxContainer" parent="Center/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Kicker" type="Label" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.769, 0.667, 0.518, 1)
+text = "GAME EDUKASI SEJARAH / PROTOTIPE FASE 1"
+horizontal_alignment = 1
+
+[node name="Title" type="Label" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "BANDUNG 1946"
+horizontal_alignment = 1
+
+[node name="Subtitle" type="Label" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.78, 0.42, 0.212, 1)
+theme_override_font_sizes/font_size = 19
+text = "GARIS PERTAHANAN"
+horizontal_alignment = 1
+
+[node name="Description" type="Label" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "Jelajahi peta latihan dan kenali pergerakan.\nCerita dan misi akan hadir pada tahap berikutnya."
+theme_override_font_sizes/font_size = 12
+horizontal_alignment = 1
+
+[node name="Start" type="Button" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "Mulai Permainan"
+
+[node name="Exit" type="Button" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "Keluar"
+
+[node name="Status" type="Label" parent="Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "WASD: bergerak  /  ESC: jeda"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Center/Panel/Margin/Content/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Content/Exit" to="." method="_on_exit_pressed"]

@@ -1,0 +1,48 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Scene menu utama tersedia
+PASS: Resource scene dapat dimuat: main_menu
+PASS: Resource scene dapat dimuat: main_game
+PASS: Resource scene dapat dimuat: player
+PASS: Resource scene dapat dimuat: props/house
+PASS: Resource scene dapat dimuat: props/tree
+PASS: Resource scene dapat dimuat: props/crate
+PASS: Fokus keyboard awal berada pada tombol Mulai
+PASS: TC-01: Mulai membuka gameplay
+PASS: Script player valid dan dapat dijalankan
+PASS: TC-02: WASD bergerak 100 px/detik: W
+PASS: TC-02: WASD bergerak 100 px/detik: A
+PASS: TC-02: WASD bergerak 100 px/detik: S
+PASS: TC-02: WASD bergerak 100 px/detik: D
+PASS: Diagonal dinormalisasi: (1.0, -1.0)
+PASS: Diagonal dinormalisasi: (-1.0, -1.0)
+PASS: Diagonal dinormalisasi: (1.0, 1.0)
+PASS: Diagonal dinormalisasi: (-1.0, 1.0)
+PASS: Pemain berhenti saat input dilepas
+PASS: Input arah berlawanan saling meniadakan
+PASS: TC-03: Rumah menghentikan player pada sisi bawah
+PASS: Pohon memiliki collision pada batang
+PASS: Peti memiliki collision
+PASS: Pemain mencapai dan berhenti di batas map: (21.0, 360.0)
+PASS: Pemain mencapai dan berhenti di batas map: (1579.0, 360.0)
+PASS: Pemain mencapai dan berhenti di batas map: (800.0, 24.0)
+PASS: Pemain mencapai dan berhenti di batas map: (800.0, 704.0)
+PASS: Lintasan sudut benar-benar menyentuh sisi rumah
+PASS: Pemain meluncur pada sisi dan melewati sudut rumah
+PASS: Kamera mengikuti di tengah map
+PASS: Kamera dibatasi agar tidak menampilkan luar map kiri
+PASS: Kamera dibatasi pada tepi map: (1280.0, 360.0)
+PASS: Kamera dibatasi pada tepi map: (800.0, 180.0)
+PASS: Kamera dibatasi pada tepi map: (800.0, 540.0)
+PASS: Jalan menghubungkan ketiga kawasan tanpa rintangan buntu
+PASS: Pemain bergerak sebelum pengujian kehilangan fokus
+PASS: Kehilangan fokus melepas input agar gerak tidak tersangkut
+PASS: TC-10: ESC menjeda gameplay
+PASS: Panel pause terlihat
+PASS: Gerak fisika berhenti saat pause
+PASS: Lanjutkan menutup pause
+PASS: Gerak kembali aktif setelah resume
+PASS: Ulangi memulihkan spawn dan melepas pause
+PASS: ESC kedua melanjutkan gameplay
+PASS: TC-12: Menu Utama kembali ke menu dengan pause bersih
+PHASE1_RESULT checks=45 failures=0
