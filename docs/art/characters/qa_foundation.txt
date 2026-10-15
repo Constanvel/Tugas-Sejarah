@@ -1,0 +1,55 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Sumber palet valid diterima
+PASS: Sumber frame karakter valid diterima
+PASS: Palet kurang dari tujuh warna ditolak
+PASS: Simbol warna duplikat ditolak
+PASS: Kode hex tidak valid ditolak
+PASS: Simbol palet yang dibutuhkan guide tidak boleh hilang
+PASS: ID tidak dapat keluar dari folder generated
+PASS: Ukuran karakter selain 16x24 ditolak
+PASS: Simbol piksel di luar palet ditolak
+PASS: Bidang di luar frame ditolak
+PASS: Koordinat subpiksel ditolak
+PASS: Pivot di luar frame ditolak
+PASS: Sumber rows dan rects ganda ditolak
+PASS: Manifest keluaran pipeline tersedia
+PASS: Manifest mencatat tepat tiga studi, palet dan preview
+PASS: PNG dapat dibaca: courier_idle_south
+PASS: Dimensi sesuai manifest: courier_idle_south
+PASS: Hanya tujuh warna dan alpha biner: courier_idle_south
+PASS: Transparansi sesuai fungsi: courier_idle_south
+PASS: Resource PNG dapat dimuat Godot: courier_idle_south
+PASS: PNG dapat dibaca: wooden_crate
+PASS: Dimensi sesuai manifest: wooden_crate
+PASS: Hanya tujuh warna dan alpha biner: wooden_crate
+PASS: Transparansi sesuai fungsi: wooden_crate
+PASS: Resource PNG dapat dimuat Godot: wooden_crate
+PASS: PNG dapat dibaca: dirt_tile
+PASS: Dimensi sesuai manifest: dirt_tile
+PASS: Hanya tujuh warna dan alpha biner: dirt_tile
+PASS: Transparansi sesuai fungsi: dirt_tile
+PASS: Resource PNG dapat dimuat Godot: dirt_tile
+PASS: PNG dapat dibaca: palette
+PASS: Dimensi sesuai manifest: palette
+PASS: Hanya tujuh warna dan alpha biner: palette
+PASS: Transparansi sesuai fungsi: palette
+PASS: PNG dapat dibaca: style_guide
+PASS: Dimensi sesuai manifest: style_guide
+PASS: Hanya tujuh warna dan alpha biner: style_guide
+PASS: Transparansi sesuai fungsi: style_guide
+PASS: Frame karakter tepat 16x24
+PASS: Siluet transparan dan aksen kepala terjaga
+PASS: Tepi tile cocok saat diulang
+PASS: Strip palet memiliki tujuh swatch
+PASS: Nilai warna PRD tepat: 3b302a
+PASS: Nilai warna PRD tepat: 78604a
+PASS: Nilai warna PRD tepat: c4aa84
+PASS: Nilai warna PRD tepat: 4b5445
+PASS: Nilai warna PRD tepat: c76b36
+PASS: Nilai warna PRD tepat: 8b4036
+PASS: Nilai warna PRD tepat: e9dcc7
+PASS: PNG referensi AI dapat dibaca
+PASS: Dimensi referensi AI tepat dan dicatat terpisah
+PASS: Referensi AI tidak dinyatakan sebagai aset produksi
+ASSET_PIPELINE_RESULT checks=52 failures=0

@@ -1,0 +1,119 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Sumber karakter valid diterima
+PASS: ID yang dapat menimpa path lain ditolak
+PASS: Pose langkah kosong ditolak
+PASS: Perubahan piksel di luar frame ditolak
+PASS: Langkah tidak boleh menggeser kepala
+PASS: Kaki di luar baseline ditolak
+PASS: Metadata fungsi yang hilang ditolak sebelum menulis PNG
+PASS: Aset tersedia: player
+PASS: Aset tersedia: enemy
+PASS: Aset tersedia: civilian
+PASS: Urutan atlas sesuai permintaan
+PASS: Frame dan pivot kaki dicatat
+PASS: PNG dapat dibaca: player.png
+PASS: Dimensi tepat: player
+PASS: Palet tujuh warna dan alpha 0/255: player
+PASS: Texture2D Godot valid: player
+PASS: Siluet utuh dengan margin transparan: player 0/0
+PASS: Kaki tepat pada baris 22: player 0/0
+PASS: Siluet utuh dengan margin transparan: player 0/1
+PASS: Kaki tepat pada baris 22: player 0/1
+PASS: Siluet utuh dengan margin transparan: player 0/2
+PASS: Kaki tepat pada baris 22: player 0/2
+PASS: Ketiga pose berbeda jelas pada tubuh/kaki: player arah 0
+PASS: Walk A/B mengubah kaki, bukan hanya warna kepala: player arah 0
+PASS: Kepala tidak bergeser antar langkah: player arah 0
+PASS: Arah memiliki gambar berbeda: player arah 0
+PASS: Siluet utuh dengan margin transparan: player 1/0
+PASS: Kaki tepat pada baris 22: player 1/0
+PASS: Siluet utuh dengan margin transparan: player 1/1
+PASS: Kaki tepat pada baris 22: player 1/1
+PASS: Siluet utuh dengan margin transparan: player 1/2
+PASS: Kaki tepat pada baris 22: player 1/2
+PASS: Ketiga pose berbeda jelas pada tubuh/kaki: player arah 1
+PASS: Walk A/B mengubah kaki, bukan hanya warna kepala: player arah 1
+PASS: Kepala tidak bergeser antar langkah: player arah 1
+PASS: Arah memiliki gambar berbeda: player arah 1
+PASS: Siluet utuh dengan margin transparan: player 2/0
+PASS: Kaki tepat pada baris 22: player 2/0
+PASS: Siluet utuh dengan margin transparan: player 2/1
+PASS: Kaki tepat pada baris 22: player 2/1
+PASS: Siluet utuh dengan margin transparan: player 2/2
+PASS: Kaki tepat pada baris 22: player 2/2
+PASS: Ketiga pose berbeda jelas pada tubuh/kaki: player arah 2
+PASS: Walk A/B mengubah kaki, bukan hanya warna kepala: player arah 2
+PASS: Kepala tidak bergeser antar langkah: player arah 2
+PASS: Arah memiliki gambar berbeda: player arah 2
+PASS: Siluet utuh dengan margin transparan: player 3/0
+PASS: Kaki tepat pada baris 22: player 3/0
+PASS: Siluet utuh dengan margin transparan: player 3/1
+PASS: Kaki tepat pada baris 22: player 3/1
+PASS: Siluet utuh dengan margin transparan: player 3/2
+PASS: Kaki tepat pada baris 22: player 3/2
+PASS: Ketiga pose berbeda jelas pada tubuh/kaki: player arah 3
+PASS: Walk A/B mengubah kaki, bukan hanya warna kepala: player arah 3
+PASS: Kepala tidak bergeser antar langkah: player arah 3
+PASS: Arah memiliki gambar berbeda: player arah 3
+PASS: PNG dapat dibaca: player_8x.png
+PASS: Preview delapan kali ukuran asli: player
+PASS: Preview tepat nearest-neighbor tanpa blur: player
+PASS: PNG dapat dibaca: enemy.png
+PASS: Dimensi tepat: enemy
+PASS: Palet tujuh warna dan alpha 0/255: enemy
+PASS: Texture2D Godot valid: enemy
+PASS: Siluet utuh dengan margin transparan: enemy 0/0
+PASS: Kaki tepat pada baris 22: enemy 0/0
+PASS: Siluet utuh dengan margin transparan: enemy 0/1
+PASS: Kaki tepat pada baris 22: enemy 0/1
+PASS: Siluet utuh dengan margin transparan: enemy 0/2
+PASS: Kaki tepat pada baris 22: enemy 0/2
+PASS: Ketiga pose berbeda jelas pada tubuh/kaki: enemy arah 0
+PASS: Walk A/B mengubah kaki, bukan hanya warna kepala: enemy arah 0
+PASS: Kepala tidak bergeser antar langkah: enemy arah 0
+PASS: Arah memiliki gambar berbeda: enemy arah 0
+PASS: Siluet utuh dengan margin transparan: enemy 1/0
+PASS: Kaki tepat pada baris 22: enemy 1/0
+PASS: Siluet utuh dengan margin transparan: enemy 1/1
+PASS: Kaki tepat pada baris 22: enemy 1/1
+PASS: Siluet utuh dengan margin transparan: enemy 1/2
+PASS: Kaki tepat pada baris 22: enemy 1/2
+PASS: Ketiga pose berbeda jelas pada tubuh/kaki: enemy arah 1
+PASS: Walk A/B mengubah kaki, bukan hanya warna kepala: enemy arah 1
+PASS: Kepala tidak bergeser antar langkah: enemy arah 1
+PASS: Arah memiliki gambar berbeda: enemy arah 1
+PASS: Siluet utuh dengan margin transparan: enemy 2/0
+PASS: Kaki tepat pada baris 22: enemy 2/0
+PASS: Siluet utuh dengan margin transparan: enemy 2/1
+PASS: Kaki tepat pada baris 22: enemy 2/1
+PASS: Siluet utuh dengan margin transparan: enemy 2/2
+PASS: Kaki tepat pada baris 22: enemy 2/2
+PASS: Ketiga pose berbeda jelas pada tubuh/kaki: enemy arah 2
+PASS: Walk A/B mengubah kaki, bukan hanya warna kepala: enemy arah 2
+PASS: Kepala tidak bergeser antar langkah: enemy arah 2
+PASS: Arah memiliki gambar berbeda: enemy arah 2
+PASS: Siluet utuh dengan margin transparan: enemy 3/0
+PASS: Kaki tepat pada baris 22: enemy 3/0
+PASS: Siluet utuh dengan margin transparan: enemy 3/1
+PASS: Kaki tepat pada baris 22: enemy 3/1
+PASS: Siluet utuh dengan margin transparan: enemy 3/2
+PASS: Kaki tepat pada baris 22: enemy 3/2
+PASS: Ketiga pose berbeda jelas pada tubuh/kaki: enemy arah 3
+PASS: Walk A/B mengubah kaki, bukan hanya warna kepala: enemy arah 3
+PASS: Kepala tidak bergeser antar langkah: enemy arah 3
+PASS: Arah memiliki gambar berbeda: enemy arah 3
+PASS: PNG dapat dibaca: enemy_8x.png
+PASS: Preview delapan kali ukuran asli: enemy
+PASS: Preview tepat nearest-neighbor tanpa blur: enemy
+PASS: PNG dapat dibaca: civilian.png
+PASS: Dimensi tepat: civilian
+PASS: Palet tujuh warna dan alpha 0/255: civilian
+PASS: Texture2D Godot valid: civilian
+PASS: Siluet utuh dengan margin transparan: civilian 0/0
+PASS: Kaki tepat pada baris 22: civilian 0/0
+PASS: PNG dapat dibaca: civilian_8x.png
+PASS: Preview delapan kali ukuran asli: civilian
+PASS: Preview tepat nearest-neighbor tanpa blur: civilian
+PASS: Identitas visual ketiga karakter berbeda
+CHARACTER_ASSET_RESULT checks=116 failures=0

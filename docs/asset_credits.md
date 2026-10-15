@@ -21,3 +21,10 @@ Bidang jalan, batas dan siluet menu dibuat dengan node native Godot. Font menggu
 - docs/art/atmosphere_reference_ai.png dibuat dengan tool image generation bawaan Codex, tanpa gambar referensi eksternal. Status hanya referensi suasana; bukan aset produksi atau dokumen sejarah. Prompt, metode dan keterbatasan tersedia pada docs/art/imagegen_prompt.md; dimensinya dicatat pada docs/art/reference_manifest.json.
 - Tidak ada aset LORONG 1943 yang disalin. Arahan atmosfer mengikuti deskripsi pengguna. Detail visual dan arsitektur final masih memerlukan peninjauan tim.
 - Manifest ukuran/frame/fungsi PNG teknis: assets/generated/manifest.json. Referensi AI memiliki manifest terpisah karena tidak memenuhi palet/piksel produksi.
+
+## Kategori karakter — 15 Oktober 2026
+
+- assets/sprites/characters/player.png dan enemy.png adalah atlas 48 x 96, masing-masing 12 frame orisinal 16 x 24. civilian.png adalah satu frame 16 x 24. Dibuat dari data piksel proyek di assets/art_sources/characters.json dengan tools/generate_characters.gd.
+- Desain meneruskan palet dan studi kurir proyek, lalu menambahkan empat arah serta variasi langkah, helm lawan tanpa insignia dan pakaian warga. Tidak menyalin sprite atau identitas militer tertentu dari sumber pihak ketiga; tidak memakai image generation baru untuk output karakter ini.
+- Preview nearest 8x dan contact sheet di docs/art/characters dibuat dari PNG yang sama. Label hanya terdapat dalam dokumentasi.
+- Manifest dan status integrasi: assets/sprites/characters/manifest.json. Keterangan penggunaan, anchor dan keterbatasan: docs/art/characters/README.md.
