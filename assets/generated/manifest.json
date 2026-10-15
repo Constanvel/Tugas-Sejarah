@@ -1,0 +1,137 @@
+{
+  "assets": [
+    {
+      "category": "characters",
+      "directions": [
+        "south"
+      ],
+      "filter": "nearest",
+      "frame_size": [
+        16.0,
+        24.0
+      ],
+      "frames": 1.0,
+      "function": "Uji siluet karakter, seragam kusam dan aksen ikat kepala; belum terpasang di player",
+      "id": "courier_idle_south",
+      "integrated": false,
+      "name": "Kurir fiktif - studi satu pose",
+      "path": "assets/generated/characters/courier_idle_south.png",
+      "pivot": [
+        8.0,
+        24.0
+      ],
+      "production_ready": false,
+      "size": [
+        16.0,
+        24.0
+      ],
+      "status": "style_study",
+      "transparent": true
+    },
+    {
+      "category": "props",
+      "directions": [
+        "fixed_top_down_south"
+      ],
+      "filter": "nearest",
+      "frame_size": [
+        32.0,
+        32.0
+      ],
+      "frames": 1.0,
+      "function": "Uji bidang atas dan sisi depan kayu pada perspektif dunia; belum menggantikan peti lama",
+      "id": "wooden_crate",
+      "integrated": false,
+      "name": "Peti kayu - studi properti",
+      "path": "assets/generated/props/wooden_crate.png",
+      "pivot": [
+        16.0,
+        30.0
+      ],
+      "production_ready": false,
+      "size": [
+        32.0,
+        32.0
+      ],
+      "status": "style_study",
+      "transparent": true
+    },
+    {
+      "category": "tiles",
+      "directions": [
+        "fixed_top_down"
+      ],
+      "filter": "nearest",
+      "frame_size": [
+        16.0,
+        16.0
+      ],
+      "frames": 1.0,
+      "function": "Uji tile tanah dengan tepi seragam agar pengulangan tidak membentuk garis sambungan",
+      "id": "dirt_tile",
+      "integrated": false,
+      "name": "Tanah berdebu - studi tile",
+      "path": "assets/generated/tiles/dirt_tile.png",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "production_ready": false,
+      "size": [
+        16.0,
+        16.0
+      ],
+      "status": "style_study",
+      "transparent": false
+    },
+    {
+      "category": "palette",
+      "frame_size": [
+        1,
+        1
+      ],
+      "frames": 7,
+      "function": "Tujuh swatch warna PRD",
+      "id": "palette",
+      "path": "assets/generated/palette.png",
+      "size": [
+        7,
+        1
+      ],
+      "transparent": false
+    },
+    {
+      "category": "documentation",
+      "frame_size": [
+        640,
+        360
+      ],
+      "frames": 1,
+      "function": "Preview teknis dan contact sheet; bukan sprite dunia",
+      "id": "style_guide",
+      "path": "docs/art/style_guide.png",
+      "size": [
+        640,
+        360
+      ],
+      "transparent": false
+    }
+  ],
+  "character_frame": [
+    16,
+    24
+  ],
+  "filter": "nearest",
+  "generator": "tools/generate_assets.gd",
+  "palette_source": "assets/art_sources/palette.json",
+  "reference_resolution": [
+    640,
+    360
+  ],
+  "samples_source": "assets/art_sources/foundation_samples.json",
+  "tile_size": [
+    16,
+    16
+  ],
+  "version": 1
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "samples": [
+    {
+      "id": "courier_idle_south",
+      "name": "Kurir fiktif - studi satu pose",
+      "category": "characters",
+      "size": [16, 24],
+      "frame_size": [16, 24],
+      "frames": 1,
+      "directions": ["south"],
+      "pivot": [8, 24],
+      "transparent": true,
+      "function": "Uji siluet karakter, seragam kusam dan aksen ikat kepala; belum terpasang di player",
+      "rows": [
+        "................",
+        "......DDDD......",
+        ".....DCCCCD.....",
+        "....DCCCCCCD....",
+        "....DRRRRRRD....",
+        ".....DBBBBD.....",
+        ".....DBDBDD.....",
+        ".....DBBBBD.....",
+        "......DBBD......",
+        ".....DWWWWD.....",
+        "....DBWWWWBD....",
+        "...DBBWWWWBBD...",
+        "...DBBWWOWBBD...",
+        "...DBBWOOWBBD...",
+        "....DBWWWWBD....",
+        "....DDDDDDDD....",
+        ".....DOOOOD.....",
+        ".....DOOOOD.....",
+        ".....DODDOD.....",
+        ".....DODDOD.....",
+        ".....DODDOD.....",
+        ".....DD..DD.....",
+        "....DDD..DDD....",
+        "....DDD..DDD...."
+      ]
+    },
+    {
+      "id": "wooden_crate",
+      "name": "Peti kayu - studi properti",
+      "category": "props",
+      "size": [32, 32],
+      "frame_size": [32, 32],
+      "frames": 1,
+      "directions": ["fixed_top_down_south"],
+      "pivot": [16, 30],
+      "transparent": true,
+      "function": "Uji bidang atas dan sisi depan kayu pada perspektif dunia; belum menggantikan peti lama",
+      "rects": [
+        [4, 2, 20, 2, "D"], [2, 4, 26, 4, "D"], [0, 8, 30, 20, "D"], [2, 28, 26, 2, "D"],
+        [4, 4, 18, 4, "B"], [2, 8, 22, 3, "W"], [6, 4, 1, 5, "W"], [14, 4, 1, 5, "W"],
+        [24, 8, 4, 18, "O"], [2, 12, 21, 14, "W"], [2, 12, 21, 2, "B"],
+        [2, 25, 21, 2, "B"], [3, 14, 2, 11, "B"], [20, 14, 2, 11, "B"],
+        [10, 14, 1, 11, "D"], [17, 14, 1, 11, "D"], [5, 15, 3, 2, "B"],
+        [8, 17, 3, 2, "B"], [11, 19, 3, 2, "B"], [14, 21, 3, 2, "B"], [17, 23, 3, 2, "B"],
+        [5, 14, 1, 1, "D"], [20, 14, 1, 1, "D"], [5, 25, 1, 1, "D"], [20, 25, 1, 1, "D"]
+      ]
+    },
+    {
+      "id": "dirt_tile",
+      "name": "Tanah berdebu - studi tile",
+      "category": "tiles",
+      "size": [16, 16],
+      "frame_size": [16, 16],
+      "frames": 1,
+      "directions": ["fixed_top_down"],
+      "pivot": [0, 0],
+      "transparent": false,
+      "function": "Uji tile tanah dengan tepi seragam agar pengulangan tidak membentuk garis sambungan",
+      "rects": [
+        [0, 0, 16, 16, "W"], [3, 4, 2, 1, "B"], [11, 10, 1, 1, "B"],
+        [7, 13, 2, 1, "D"]
+      ]
+    }
+  ]
+}

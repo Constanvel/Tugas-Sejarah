@@ -1,0 +1,18 @@
+{
+  "id": "atmosphere_reference_ai",
+  "name": "Referensi suasana lingkungan fiktif Bandung 1946",
+  "path": "docs/art/atmosphere_reference_ai.png",
+  "size": [1536, 1024],
+  "frame_size": [1536, 1024],
+  "frames": 1,
+  "category": "atmosphere_reference",
+  "directions": ["overhead_concept_only"],
+  "transparent": false,
+  "palette_exact": false,
+  "native_pixel_grid": false,
+  "production_ready": false,
+  "integrated": false,
+  "generator": "Built-in image_gen.imagegen",
+  "prompt": "docs/art/imagegen_prompt.md",
+  "function": "Acuan suasana, material dan warna umum; bukan atlas, sprite, tile, atau rekonstruksi sejarah"
+}
