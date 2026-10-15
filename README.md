@@ -79,6 +79,8 @@ Perintah ini memperbarui enam PNG di docs/qa. Screenshot adalah viewport interna
 
 ## Rencana berikutnya
 
+Fondasi pipeline aset visual tersedia di [docs/art/README.md](docs/art/README.md): palet tujuh warna, generator GDScript yang dapat dijalankan ulang, manifest PNG dan satu style guide teknis. Baru tiga studi kecil; aset gameplay Phase 1 tetap memakai SVG lama. Referensi suasana AI disimpan terpisah dan tidak dianggap atlas siap pakai.
+
 [Rencana implementasi lima fase](docs/implementation_plan.md) menjelaskan urutan dan Definition of Done setiap fase. Phase 2 baru dimulai pada tugas berikutnya setelah fondasi diterima: interaksi/dialog, HP, aksi arcade, enemy, Game Over dan Retry. Build Windows serta pemeriksaan fakta sejarah lengkap termasuk tahap release; fondasi ini belum menjadi MVP lengkap.
 
 ## Template Git

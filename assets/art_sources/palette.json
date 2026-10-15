@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "tile_size": [16, 16],
+  "character_frame": [16, 24],
+  "reference_resolution": [640, 360],
+  "filter": "nearest",
+  "transparent_symbol": ".",
+  "colors": [
+    {"id": "dark_brown", "symbol": "D", "hex": "#3B302A", "role": "Outline dan bayangan terdalam"},
+    {"id": "warm_brown", "symbol": "W", "hex": "#78604A", "role": "Kayu, tanah dan kain dasar"},
+    {"id": "dusty_beige", "symbol": "B", "hex": "#C4AA84", "role": "Kulit, debu dan bidang terang"},
+    {"id": "dark_olive", "symbol": "O", "hex": "#4B5445", "role": "Vegetasi dan kain gelap"},
+    {"id": "muted_orange", "symbol": "M", "hex": "#C76B36", "role": "Sorotan hangat dan cahaya api"},
+    {"id": "dark_red", "symbol": "R", "hex": "#8B4036", "role": "Genteng dan aksen merah terbatas"},
+    {"id": "cream_white", "symbol": "C", "hex": "#E9DCC7", "role": "Sorotan terpilih dan aksen putih"}
+  ]
+}
