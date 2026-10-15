@@ -1,0 +1,27 @@
+{
+  "size_tiles": [32, 20],
+  "buildings": [
+    {"id": "common_house", "at": [3, 2]},
+    {"id": "colonial_house", "at": [22, 1]},
+    {"id": "aged_building", "at": [3, 14]},
+    {"id": "guard_post", "at": [23, 14]}
+  ],
+  "environment": [
+    {"id": "tree_broad", "at": [0, 3]}, {"id": "tree_slim", "at": [10, 0]},
+    {"id": "tree_broad", "at": [30, 2]}, {"id": "tree_slim", "at": [10, 16]},
+    {"id": "tree_broad", "at": [29, 16]}, {"id": "bush", "at": [7, 6]},
+    {"id": "bush_dry", "at": [19, 7]}, {"id": "fence_end_l", "at": [2, 7]},
+    {"id": "fence_center", "at": [3, 7]}, {"id": "fence_end_r", "at": [4, 7]},
+    {"id": "fence_end_l", "at": [6, 7]}, {"id": "fence_center", "at": [7, 7]},
+    {"id": "fence_end_r", "at": [8, 7]}, {"id": "brick_end_l", "at": [21, 7]},
+    {"id": "brick_center", "at": [22, 7]}, {"id": "brick_center", "at": [23, 7]},
+    {"id": "brick_end_r", "at": [24, 7]}, {"id": "lamp_post", "at": [12, 7]},
+    {"id": "lamp_post", "at": [19, 7]}, {"id": "lamp_post", "at": [19, 13]},
+    {"id": "crate_pile", "at": [26, 15]}, {"id": "sack_pile", "at": [8, 17]},
+    {"id": "barrel", "at": [8, 14]}, {"id": "banana_plant", "at": [0, 17]},
+    {"id": "fern", "at": [12, 15]}, {"id": "rock", "at": [1, 12]},
+    {"id": "grass_tuft", "at": [30, 12]}, {"id": "bucket", "at": [21, 18]},
+    {"id": "bench", "at": [26, 8]}, {"id": "clay_pot", "at": [2, 6]},
+    {"id": "dry_plant", "at": [12, 2]}
+  ]
+}

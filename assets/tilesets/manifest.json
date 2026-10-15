@@ -1,0 +1,3592 @@
+{
+  "atlases": {
+    "buildings": {
+      "assets": [
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "roof_center",
+          "kind": "roof",
+          "mask": -1,
+          "name": "roof center",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "center"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "roof_left",
+          "kind": "roof",
+          "mask": -1,
+          "name": "roof left",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "left"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "roof_right",
+          "kind": "roof",
+          "mask": -1,
+          "name": "roof right",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "right"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "roof_top_left",
+          "kind": "roof",
+          "mask": -1,
+          "name": "roof top left",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "top_left"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "roof_top",
+          "kind": "roof",
+          "mask": -1,
+          "name": "roof top",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "top"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "roof_top_right",
+          "kind": "roof",
+          "mask": -1,
+          "name": "roof top right",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "top_right"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "eave_left",
+          "kind": "eave",
+          "mask": -1,
+          "name": "eave left",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "left"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "eave_center",
+          "kind": "eave",
+          "mask": -1,
+          "name": "eave center",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "center"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "eave_right",
+          "kind": "eave",
+          "mask": -1,
+          "name": "eave right",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "right"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "wall_plaster",
+          "kind": "wall",
+          "mask": -1,
+          "name": "wall plaster",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "plaster"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "wall_aged",
+          "kind": "wall",
+          "mask": -1,
+          "name": "wall aged",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "aged"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "wall_corner_left",
+          "kind": "wall",
+          "mask": -1,
+          "name": "wall corner left",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "left"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "wall_corner_right",
+          "kind": "wall",
+          "mask": -1,
+          "name": "wall corner right",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "right"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "wall_brick",
+          "kind": "wall",
+          "mask": -1,
+          "name": "wall brick",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "brick"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "wall_timber",
+          "kind": "wall",
+          "mask": -1,
+          "name": "wall timber",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "timber"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "door_wood_top",
+          "kind": "door",
+          "mask": -1,
+          "name": "door wood top",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "wood_top"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "door_wood_bottom",
+          "kind": "door",
+          "mask": -1,
+          "name": "door wood bottom",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "wood_bottom"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "window_wood",
+          "kind": "window",
+          "mask": -1,
+          "name": "window wood",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "wood"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "window_colonial",
+          "kind": "window",
+          "mask": -1,
+          "name": "window colonial",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "colonial"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "door_colonial_top",
+          "kind": "door",
+          "mask": -1,
+          "name": "door colonial top",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "colonial_top"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "door_colonial_bottom",
+          "kind": "door",
+          "mask": -1,
+          "name": "door colonial bottom",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "colonial_bottom"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "vent",
+          "kind": "window",
+          "mask": -1,
+          "name": "vent",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "vent"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "porch_step",
+          "kind": "step",
+          "mask": -1,
+          "name": "porch step",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "plain"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "pillar",
+          "kind": "pillar",
+          "mask": -1,
+          "name": "pillar",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "plain"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "foundation",
+          "kind": "foundation",
+          "mask": -1,
+          "name": "foundation",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "plaster"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "foundation_aged",
+          "kind": "foundation",
+          "mask": -1,
+          "name": "foundation aged",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "aged"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "shutter_closed",
+          "kind": "window",
+          "mask": -1,
+          "name": "shutter closed",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "shutter"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "post_left",
+          "kind": "post",
+          "mask": -1,
+          "name": "post left",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "left"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "post_right",
+          "kind": "post",
+          "mask": -1,
+          "name": "post right",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "right"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "booth_window",
+          "kind": "window",
+          "mask": -1,
+          "name": "booth window",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "booth"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "roof_worn",
+          "kind": "roof",
+          "mask": -1,
+          "name": "roof worn",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "worn"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "wall_patch",
+          "kind": "wall",
+          "mask": -1,
+          "name": "wall patch",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "patch"
+        }
+      ],
+      "grid_size": [
+        8,
+        4
+      ],
+      "path": "assets/tilesets/buildings_16.png",
+      "size_px": [
+        144,
+        72
+      ]
+    },
+    "environment": {
+      "assets": [
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                1,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                1,
+                0
+              ],
+              "offset_px": [
+                16,
+                0
+              ],
+              "pixel_region": [
+                19,
+                1,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                0,
+                1
+              ],
+              "offset_px": [
+                0,
+                16
+              ],
+              "pixel_region": [
+                1,
+                19,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                1,
+                1
+              ],
+              "offset_px": [
+                16,
+                16
+              ],
+              "pixel_region": [
+                19,
+                19,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                0,
+                2
+              ],
+              "offset_px": [
+                0,
+                32
+              ],
+              "pixel_region": [
+                1,
+                37,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                1,
+                2
+              ],
+              "offset_px": [
+                16,
+                32
+              ],
+              "pixel_region": [
+                19,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "tree_broad",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pohon rindang",
+          "opaque": false,
+          "size_px": [
+            32,
+            48
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                1,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                3,
+                0
+              ],
+              "offset_px": [
+                16,
+                0
+              ],
+              "pixel_region": [
+                55,
+                1,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                2,
+                1
+              ],
+              "offset_px": [
+                0,
+                16
+              ],
+              "pixel_region": [
+                37,
+                19,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                3,
+                1
+              ],
+              "offset_px": [
+                16,
+                16
+              ],
+              "pixel_region": [
+                55,
+                19,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                2,
+                2
+              ],
+              "offset_px": [
+                0,
+                32
+              ],
+              "pixel_region": [
+                37,
+                37,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                3,
+                2
+              ],
+              "offset_px": [
+                16,
+                32
+              ],
+              "pixel_region": [
+                55,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "tree_slim",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pohon ramping",
+          "opaque": false,
+          "size_px": [
+            32,
+            48
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                1,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                5,
+                0
+              ],
+              "offset_px": [
+                16,
+                0
+              ],
+              "pixel_region": [
+                91,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "bush",
+          "kind": "object",
+          "mask": -1,
+          "name": "Semak",
+          "opaque": false,
+          "size_px": [
+            32,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                1,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                7,
+                0
+              ],
+              "offset_px": [
+                16,
+                0
+              ],
+              "pixel_region": [
+                127,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "bush_dry",
+          "kind": "object",
+          "mask": -1,
+          "name": "Semak kering",
+          "opaque": false,
+          "size_px": [
+            32,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "fence_end_l",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pagar kayu end_l",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "fence_center",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pagar kayu center",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "fence_end_r",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pagar kayu end_r",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "fence_vertical",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pagar kayu vertical",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "fence_corner",
+          "kind": "object",
+          "mask": -1,
+          "name": "Sudut pagar",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "brick_center",
+          "kind": "object",
+          "mask": -1,
+          "name": "Dinding bata center",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "brick_end_l",
+          "kind": "object",
+          "mask": -1,
+          "name": "Dinding bata end_l",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "brick_end_r",
+          "kind": "object",
+          "mask": -1,
+          "name": "Dinding bata end_r",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "brick_pillar",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pilar bata",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                55,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                1,
+                4
+              ],
+              "offset_px": [
+                0,
+                16
+              ],
+              "pixel_region": [
+                19,
+                73,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                1,
+                5
+              ],
+              "offset_px": [
+                0,
+                32
+              ],
+              "pixel_region": [
+                19,
+                91,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "lamp_post",
+          "kind": "object",
+          "mask": -1,
+          "name": "Tiang lentera",
+          "opaque": false,
+          "size_px": [
+            16,
+            48
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                55,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                3,
+                3
+              ],
+              "offset_px": [
+                16,
+                0
+              ],
+              "pixel_region": [
+                55,
+                55,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                2,
+                4
+              ],
+              "offset_px": [
+                0,
+                16
+              ],
+              "pixel_region": [
+                37,
+                73,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                3,
+                4
+              ],
+              "offset_px": [
+                16,
+                16
+              ],
+              "pixel_region": [
+                55,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "crate_pile",
+          "kind": "object",
+          "mask": -1,
+          "name": "Tumpukan peti",
+          "opaque": false,
+          "size_px": [
+            32,
+            32
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                55,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                5,
+                3
+              ],
+              "offset_px": [
+                16,
+                0
+              ],
+              "pixel_region": [
+                91,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "sack_pile",
+          "kind": "object",
+          "mask": -1,
+          "name": "Tumpukan karung",
+          "opaque": false,
+          "size_px": [
+            32,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "fern",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pakis",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "rock",
+          "kind": "object",
+          "mask": -1,
+          "name": "Batu kecil",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                73,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                0,
+                5
+              ],
+              "offset_px": [
+                0,
+                16
+              ],
+              "pixel_region": [
+                1,
+                91,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "barrel",
+          "kind": "object",
+          "mask": -1,
+          "name": "Tong kayu",
+          "opaque": false,
+          "size_px": [
+            16,
+            32
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                73,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                5,
+                4
+              ],
+              "offset_px": [
+                16,
+                0
+              ],
+              "pixel_region": [
+                91,
+                73,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                4,
+                5
+              ],
+              "offset_px": [
+                0,
+                16
+              ],
+              "pixel_region": [
+                73,
+                91,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                5,
+                5
+              ],
+              "offset_px": [
+                16,
+                16
+              ],
+              "pixel_region": [
+                91,
+                91,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "banana_plant",
+          "kind": "object",
+          "mask": -1,
+          "name": "Tanaman pisang",
+          "opaque": false,
+          "size_px": [
+            32,
+            32
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "grass_tuft",
+          "kind": "object",
+          "mask": -1,
+          "name": "Rumpun rumput",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "bucket",
+          "kind": "object",
+          "mask": -1,
+          "name": "Ember kayu",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                5
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                91,
+                16,
+                16
+              ]
+            },
+            {
+              "atlas": [
+                3,
+                5
+              ],
+              "offset_px": [
+                16,
+                0
+              ],
+              "pixel_region": [
+                55,
+                91,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "bench",
+          "kind": "object",
+          "mask": -1,
+          "name": "Bangku kayu",
+          "opaque": false,
+          "size_px": [
+            32,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                5
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                91,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "clay_pot",
+          "kind": "object",
+          "mask": -1,
+          "name": "Pot tanah liat",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                5
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                91,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "dry_plant",
+          "kind": "object",
+          "mask": -1,
+          "name": "Tanaman kering",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        }
+      ],
+      "grid_size": [
+        8,
+        6
+      ],
+      "path": "assets/tilesets/environment_16.png",
+      "size_px": [
+        144,
+        108
+      ]
+    },
+    "terrain": {
+      "assets": [
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "soil",
+          "kind": "surface",
+          "mask": -1,
+          "name": "soil",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "soil"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "soil_pebbles",
+          "kind": "surface",
+          "mask": -1,
+          "name": "soil pebbles",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "soil_pebbles"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_dirt",
+          "kind": "surface",
+          "mask": -1,
+          "name": "road dirt",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "road_dirt"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_dust",
+          "kind": "surface",
+          "mask": -1,
+          "name": "road dust",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "road_dust"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "cobble",
+          "kind": "surface",
+          "mask": -1,
+          "name": "cobble",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "cobble"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "cobble_worn",
+          "kind": "surface",
+          "mask": -1,
+          "name": "cobble worn",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "cobble_worn"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "grass",
+          "kind": "surface",
+          "mask": -1,
+          "name": "grass",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "grass"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                0
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                1,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "dry_soil",
+          "kind": "surface",
+          "mask": -1,
+          "name": "dry soil",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "dry_soil"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_0",
+          "kind": "road_mask",
+          "mask": 0,
+          "name": "road mask 0",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_1",
+          "kind": "road_mask",
+          "mask": 1,
+          "name": "road mask 1",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_2",
+          "kind": "road_mask",
+          "mask": 2,
+          "name": "road mask 2",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_3",
+          "kind": "road_mask",
+          "mask": 3,
+          "name": "road mask 3",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_4",
+          "kind": "road_mask",
+          "mask": 4,
+          "name": "road mask 4",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_5",
+          "kind": "road_mask",
+          "mask": 5,
+          "name": "road mask 5",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_6",
+          "kind": "road_mask",
+          "mask": 6,
+          "name": "road mask 6",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                1
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                19,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_7",
+          "kind": "road_mask",
+          "mask": 7,
+          "name": "road mask 7",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_8",
+          "kind": "road_mask",
+          "mask": 8,
+          "name": "road mask 8",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_9",
+          "kind": "road_mask",
+          "mask": 9,
+          "name": "road mask 9",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_10",
+          "kind": "road_mask",
+          "mask": 10,
+          "name": "road mask 10",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_11",
+          "kind": "road_mask",
+          "mask": 11,
+          "name": "road mask 11",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_12",
+          "kind": "road_mask",
+          "mask": 12,
+          "name": "road mask 12",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_13",
+          "kind": "road_mask",
+          "mask": 13,
+          "name": "road mask 13",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_14",
+          "kind": "road_mask",
+          "mask": 14,
+          "name": "road mask 14",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                2
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                37,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_mask_15",
+          "kind": "road_mask",
+          "mask": 15,
+          "name": "road mask 15",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": ""
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_edge_n",
+          "kind": "road_edge",
+          "mask": -1,
+          "name": "road edge n",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "n"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_edge_e",
+          "kind": "road_edge",
+          "mask": -1,
+          "name": "road edge e",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "e"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_edge_s",
+          "kind": "road_edge",
+          "mask": -1,
+          "name": "road edge s",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "s"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_edge_w",
+          "kind": "road_edge",
+          "mask": -1,
+          "name": "road edge w",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "w"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_corner_nw",
+          "kind": "road_corner",
+          "mask": -1,
+          "name": "road corner nw",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "nw"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_corner_ne",
+          "kind": "road_corner",
+          "mask": -1,
+          "name": "road corner ne",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "ne"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_corner_se",
+          "kind": "road_corner",
+          "mask": -1,
+          "name": "road corner se",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "se"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                3
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                55,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_corner_sw",
+          "kind": "road_corner",
+          "mask": -1,
+          "name": "road corner sw",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "sw"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                0,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                1,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_inner_nw",
+          "kind": "road_inner",
+          "mask": -1,
+          "name": "road inner nw",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "nw"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                1,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                19,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_inner_ne",
+          "kind": "road_inner",
+          "mask": -1,
+          "name": "road inner ne",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "ne"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                2,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                37,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_inner_se",
+          "kind": "road_inner",
+          "mask": -1,
+          "name": "road inner se",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "se"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                3,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                55,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "road_inner_sw",
+          "kind": "road_inner",
+          "mask": -1,
+          "name": "road inner sw",
+          "opaque": true,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "sw"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                4,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                73,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "deco_pebbles",
+          "kind": "decoration",
+          "mask": -1,
+          "name": "deco pebbles",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "pebbles"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                5,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                91,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "deco_grass_tuft",
+          "kind": "decoration",
+          "mask": -1,
+          "name": "deco grass tuft",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "grass_tuft"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                6,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                109,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "deco_fallen_leaves",
+          "kind": "decoration",
+          "mask": -1,
+          "name": "deco fallen leaves",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "fallen_leaves"
+        },
+        {
+          "assembly": "16px_cells",
+          "cells": [
+            {
+              "atlas": [
+                7,
+                4
+              ],
+              "offset_px": [
+                0,
+                0
+              ],
+              "pixel_region": [
+                127,
+                73,
+                16,
+                16
+              ]
+            }
+          ],
+          "id": "deco_dust_patch",
+          "kind": "decoration",
+          "mask": -1,
+          "name": "deco dust patch",
+          "opaque": false,
+          "size_px": [
+            16,
+            16
+          ],
+          "variant": "dust_patch"
+        }
+      ],
+      "grid_size": [
+        8,
+        5
+      ],
+      "path": "assets/tilesets/terrain_16.png",
+      "size_px": [
+        144,
+        90
+      ]
+    }
+  },
+  "blueprints": [
+    {
+      "id": "common_house",
+      "name": "Rumah masyarakat",
+      "rows": [
+        [
+          "roof_top_left",
+          "roof_top",
+          "roof_top",
+          "roof_top_right"
+        ],
+        [
+          "roof_left",
+          "roof_center",
+          "roof_center",
+          "roof_right"
+        ],
+        [
+          "eave_left",
+          "eave_center",
+          "eave_center",
+          "eave_right"
+        ],
+        [
+          "wall_corner_left",
+          "window_wood",
+          "door_wood_top",
+          "wall_corner_right"
+        ],
+        [
+          "foundation",
+          "foundation",
+          "door_wood_bottom",
+          "foundation"
+        ]
+      ]
+    },
+    {
+      "id": "colonial_house",
+      "name": "Rumah inspirasi kolonial",
+      "rows": [
+        [
+          "roof_top_left",
+          "roof_top",
+          "roof_top",
+          "roof_top",
+          "roof_top",
+          "roof_top_right"
+        ],
+        [
+          "roof_left",
+          "roof_center",
+          "roof_center",
+          "roof_center",
+          "roof_center",
+          "roof_right"
+        ],
+        [
+          "eave_left",
+          "eave_center",
+          "eave_center",
+          "eave_center",
+          "eave_center",
+          "eave_right"
+        ],
+        [
+          "pillar",
+          "window_colonial",
+          "wall_plaster",
+          "door_colonial_top",
+          "window_colonial",
+          "pillar"
+        ],
+        [
+          "pillar",
+          "foundation",
+          "foundation",
+          "door_colonial_bottom",
+          "foundation",
+          "pillar"
+        ],
+        [
+          "porch_step",
+          "porch_step",
+          "porch_step",
+          "porch_step",
+          "porch_step",
+          "porch_step"
+        ]
+      ]
+    },
+    {
+      "id": "aged_building",
+      "name": "Bangunan tua",
+      "rows": [
+        [
+          "roof_top_left",
+          "roof_top",
+          "roof_top_right"
+        ],
+        [
+          "roof_left",
+          "roof_worn",
+          "roof_right"
+        ],
+        [
+          "eave_left",
+          "eave_center",
+          "eave_right"
+        ],
+        [
+          "wall_aged",
+          "shutter_closed",
+          "door_wood_top"
+        ],
+        [
+          "foundation_aged",
+          "foundation_aged",
+          "door_wood_bottom"
+        ]
+      ]
+    },
+    {
+      "id": "guard_post",
+      "name": "Pos penjagaan",
+      "rows": [
+        [
+          "roof_top_left",
+          "roof_top",
+          "roof_top_right"
+        ],
+        [
+          "eave_left",
+          "eave_center",
+          "eave_right"
+        ],
+        [
+          "post_left",
+          "booth_window",
+          "post_right"
+        ],
+        [
+          "post_left",
+          "wall_timber",
+          "post_right"
+        ]
+      ]
+    }
+  ],
+  "filter": "nearest",
+  "generator": "tools/generate_tilesets.gd",
+  "integrated": false,
+  "margin": [
+    1,
+    1
+  ],
+  "mask_bits": {
+    "east": 2.0,
+    "north": 1.0,
+    "south": 4.0,
+    "west": 8.0
+  },
+  "padding": 1,
+  "palette": "assets/art_sources/palette.json",
+  "separation": [
+    2,
+    2
+  ],
+  "source": "assets/art_sources/tilesets.json",
+  "tile_size": [
+    16,
+    16
+  ],
+  "version": 1
+}

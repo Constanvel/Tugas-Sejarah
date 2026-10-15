@@ -21,3 +21,17 @@ Bidang jalan, batas dan siluet menu dibuat dengan node native Godot. Font menggu
 - docs/art/atmosphere_reference_ai.png dibuat dengan tool image generation bawaan Codex, tanpa gambar referensi eksternal. Status hanya referensi suasana; bukan aset produksi atau dokumen sejarah. Prompt, metode dan keterbatasan tersedia pada docs/art/imagegen_prompt.md; dimensinya dicatat pada docs/art/reference_manifest.json.
 - Tidak ada aset LORONG 1943 yang disalin. Arahan atmosfer mengikuti deskripsi pengguna. Detail visual dan arsitektur final masih memerlukan peninjauan tim.
 - Manifest ukuran/frame/fungsi PNG teknis: assets/generated/manifest.json. Referensi AI memiliki manifest terpisah karena tidak memenuhi palet/piksel produksi.
+
+## Kategori karakter — 15 Oktober 2026
+
+- assets/sprites/characters/player.png dan enemy.png adalah atlas 48 x 96, masing-masing 12 frame orisinal 16 x 24. civilian.png adalah satu frame 16 x 24. Dibuat dari data piksel proyek di assets/art_sources/characters.json dengan tools/generate_characters.gd.
+- Desain meneruskan palet dan studi kurir proyek, lalu menambahkan empat arah serta variasi langkah, helm lawan tanpa insignia dan pakaian warga. Tidak menyalin sprite atau identitas militer tertentu dari sumber pihak ketiga; tidak memakai image generation baru untuk output karakter ini.
+- Preview nearest 8x dan contact sheet di docs/art/characters dibuat dari PNG yang sama. Label hanya terdapat dalam dokumentasi.
+- Manifest dan status integrasi: assets/sprites/characters/manifest.json. Keterangan penggunaan, anchor dan keterbatasan: docs/art/characters/README.md.
+
+## Kategori tileset lingkungan — 15 Oktober 2026
+
+- assets/tilesets/terrain_16.png, buildings_16.png dan environment_16.png dibuat orisinal dari resep assets/art_sources/tilesets.json oleh tools/generate_tilesets.gd menggunakan palet proyek serta Image bawaan Godot. Tidak memakai gambar referensi eksternal, layanan image generation baru atau sprite komersial.
+- Paket berisi 40 terrain, 32 modul bangunan dan 25 objek lingkungan, seluruhnya pada grid konten 16 x 16 dengan ekstrusi 1 px. Contact sheet dan dua preview map di docs/art/tilesets dirakit dari aset yang sama; tidak menambahkan aset pihak ketiga.
+- Pembuat: OpenAI Codex untuk tim Bandung 1946. Arsitektur sederhana dan kolonial adalah interpretasi artistik generik, belum rekonstruksi bangunan tertentu atau bukti sejarah.
+- Dimensi, koordinat, offset serta fungsi: assets/tilesets/manifest.json dan docs/art/tilesets/tile_index.md. Panduan regenerasi, impor, QA serta batas penggunaan: docs/art/tilesets/README.md. Status belum diintegrasikan pada gameplay; lisensi umum repositori tetap belum ditetapkan.

@@ -81,6 +81,10 @@ Perintah ini memperbarui enam PNG di docs/qa. Screenshot adalah viewport interna
 
 Fondasi pipeline aset visual tersedia di [docs/art/README.md](docs/art/README.md): palet tujuh warna, generator GDScript yang dapat dijalankan ulang, manifest PNG dan satu style guide teknis. Baru tiga studi kecil; aset gameplay Phase 1 tetap memakai SVG lama. Referensi suasana AI disimpan terpisah dan tidak dianggap atlas siap pakai.
 
+Kategori karakter telah dibuat di assets/sprites/characters: player dan enemy 12 frame empat arah, serta civilian satu pose. [Panduan karakter dan preview](docs/art/characters/README.md) mencatat layout, baseline kaki, regenerasi dan pengujian. Aset baru belum mengganti sprite di scene gameplay.
+
+Kategori lingkungan kini menyediakan tiga atlas PNG di assets/tilesets: 40 terrain, 32 modul bangunan dan 25 objek lingkungan. [Panduan tileset](docs/art/tilesets/README.md) berisi contact sheet, preview map kecil, manifest, koordinat dan pengaturan margin/separation Godot. Generator dapat dijalankan ulang; aset ini belum mengganti map gameplay atau resource TileSet.
+
 [Rencana implementasi lima fase](docs/implementation_plan.md) menjelaskan urutan dan Definition of Done setiap fase. Phase 2 baru dimulai pada tugas berikutnya setelah fondasi diterima: interaksi/dialog, HP, aksi arcade, enemy, Game Over dan Retry. Build Windows serta pemeriksaan fakta sejarah lengkap termasuk tahap release; fondasi ini belum menjadi MVP lengkap.
 
 ## Template Git

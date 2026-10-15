@@ -2,6 +2,10 @@
 
 Status: studi awal, belum paket aset final dan belum terpasang pada gameplay. Mengikuti docs/prd.md, khususnya bagian 7, 8 dan 11, serta arahan visual Rainer pada 15 Oktober 2026. PRD dan mekanik Phase 1 dipertahankan.
 
+Pembaruan kategori karakter: [player/enemy empat arah dan civilian statis](characters/README.md) kini tersedia pada assets/sprites/characters. Sumber, manifest dan generator karakter disimpan terpisah agar studi fondasi di bawah tetap dapat dibuat ulang. Aset karakter baru belum diintegrasikan ke gameplay.
+
+Pembaruan kategori lingkungan: [terrain, bangunan modular dan objek lingkungan](tilesets/README.md) tersedia di assets/tilesets. Paket mencakup tiga atlas, 97 aset logis/120 sel, indeks koordinat, contact sheet dan preview map. Generator terpisah meneruskan palet fondasi; map gameplay belum diganti. Keterangan tiga studi dan urutan kategori di bawah mendokumentasikan tahap fondasi awal.
+
 ## Hasil tahap ini
 
 - assets/art_sources/palette.json: sumber palet tujuh warna, simbol, fungsi warna dan ukuran acuan.

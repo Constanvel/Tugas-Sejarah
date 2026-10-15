@@ -1,0 +1,137 @@
+{
+  "assets": [
+    {
+      "columns": 3,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "filter": "nearest",
+      "foot_baseline_y": 22,
+      "frame_size": [
+        16,
+        24
+      ],
+      "frames": 12,
+      "function": "Player; pakaian cokelat-zaitun, ikat kepala merah-putih, tas sederhana",
+      "id": "player",
+      "integrated": false,
+      "name": "Pejuang muda fiktif",
+      "path": "assets/sprites/characters/player.png",
+      "pivot": [
+        8,
+        23
+      ],
+      "poses": [
+        "idle",
+        "walk_a",
+        "walk_b"
+      ],
+      "preview": "docs/art/characters/player_8x.png",
+      "preview_scale": 8,
+      "rows": 4,
+      "size": [
+        48,
+        96
+      ],
+      "transparent": true
+    },
+    {
+      "columns": 3,
+      "directions": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "filter": "nearest",
+      "foot_baseline_y": 22,
+      "frame_size": [
+        16,
+        24
+      ],
+      "frames": 12,
+      "function": "Enemy; helm polos lebar dan seragam khaki, tanpa insignia atau identitas militer tertentu",
+      "id": "enemy",
+      "integrated": false,
+      "name": "Lawan militer fiktif",
+      "path": "assets/sprites/characters/enemy.png",
+      "pivot": [
+        8,
+        23
+      ],
+      "poses": [
+        "idle",
+        "walk_a",
+        "walk_b"
+      ],
+      "preview": "docs/art/characters/enemy_8x.png",
+      "preview_scale": 8,
+      "rows": 4,
+      "size": [
+        48,
+        96
+      ],
+      "transparent": true
+    },
+    {
+      "columns": 1,
+      "directions": [
+        "down"
+      ],
+      "filter": "nearest",
+      "foot_baseline_y": 22,
+      "frame_size": [
+        16,
+        24
+      ],
+      "frames": 1,
+      "function": "NPC statis; pakaian sederhana dan kain panjang merah kusam, tanpa identitas sejarah tertentu",
+      "id": "civilian",
+      "integrated": false,
+      "name": "Warga Bandung fiktif",
+      "path": "assets/sprites/characters/civilian.png",
+      "pivot": [
+        8,
+        23
+      ],
+      "poses": [
+        "idle"
+      ],
+      "preview": "docs/art/characters/civilian_8x.png",
+      "preview_scale": 8,
+      "rows": 1,
+      "size": [
+        16,
+        24
+      ],
+      "transparent": true
+    }
+  ],
+  "column_order": [
+    "idle",
+    "walk_a",
+    "walk_b"
+  ],
+  "foot_baseline_y": 22,
+  "frame_size": [
+    16,
+    24
+  ],
+  "generator": "tools/generate_characters.gd",
+  "palette": "assets/art_sources/palette.json",
+  "pivot": [
+    8,
+    23
+  ],
+  "row_order": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "source": "assets/art_sources/characters.json",
+  "version": 1
+}
