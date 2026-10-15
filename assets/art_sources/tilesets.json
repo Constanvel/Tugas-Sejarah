@@ -1,0 +1,4288 @@
+{
+  "version": 1,
+  "tile_size": [
+	16,
+	16
+  ],
+  "padding": 1,
+  "columns": 8,
+  "mask_bits": {
+	"north": 1,
+	"east": 2,
+	"south": 4,
+	"west": 8
+  },
+  "terrain": [
+	{
+	  "id": "soil",
+	  "kind": "surface",
+	  "variant": "soil",
+	  "opaque": true
+	},
+	{
+	  "id": "soil_pebbles",
+	  "kind": "surface",
+	  "variant": "soil_pebbles",
+	  "opaque": true
+	},
+	{
+	  "id": "road_dirt",
+	  "kind": "surface",
+	  "variant": "road_dirt",
+	  "opaque": true
+	},
+	{
+	  "id": "road_dust",
+	  "kind": "surface",
+	  "variant": "road_dust",
+	  "opaque": true
+	},
+	{
+	  "id": "cobble",
+	  "kind": "surface",
+	  "variant": "cobble",
+	  "opaque": true
+	},
+	{
+	  "id": "cobble_worn",
+	  "kind": "surface",
+	  "variant": "cobble_worn",
+	  "opaque": true
+	},
+	{
+	  "id": "grass",
+	  "kind": "surface",
+	  "variant": "grass",
+	  "opaque": true
+	},
+	{
+	  "id": "dry_soil",
+	  "kind": "surface",
+	  "variant": "dry_soil",
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_0",
+	  "kind": "road_mask",
+	  "mask": 0,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_1",
+	  "kind": "road_mask",
+	  "mask": 1,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_2",
+	  "kind": "road_mask",
+	  "mask": 2,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_3",
+	  "kind": "road_mask",
+	  "mask": 3,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_4",
+	  "kind": "road_mask",
+	  "mask": 4,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_5",
+	  "kind": "road_mask",
+	  "mask": 5,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_6",
+	  "kind": "road_mask",
+	  "mask": 6,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_7",
+	  "kind": "road_mask",
+	  "mask": 7,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_8",
+	  "kind": "road_mask",
+	  "mask": 8,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_9",
+	  "kind": "road_mask",
+	  "mask": 9,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_10",
+	  "kind": "road_mask",
+	  "mask": 10,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_11",
+	  "kind": "road_mask",
+	  "mask": 11,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_12",
+	  "kind": "road_mask",
+	  "mask": 12,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_13",
+	  "kind": "road_mask",
+	  "mask": 13,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_14",
+	  "kind": "road_mask",
+	  "mask": 14,
+	  "opaque": true
+	},
+	{
+	  "id": "road_mask_15",
+	  "kind": "road_mask",
+	  "mask": 15,
+	  "opaque": true
+	},
+	{
+	  "id": "road_edge_n",
+	  "kind": "road_edge",
+	  "variant": "n",
+	  "opaque": true
+	},
+	{
+	  "id": "road_edge_e",
+	  "kind": "road_edge",
+	  "variant": "e",
+	  "opaque": true
+	},
+	{
+	  "id": "road_edge_s",
+	  "kind": "road_edge",
+	  "variant": "s",
+	  "opaque": true
+	},
+	{
+	  "id": "road_edge_w",
+	  "kind": "road_edge",
+	  "variant": "w",
+	  "opaque": true
+	},
+	{
+	  "id": "road_corner_nw",
+	  "kind": "road_corner",
+	  "variant": "nw",
+	  "opaque": true
+	},
+	{
+	  "id": "road_corner_ne",
+	  "kind": "road_corner",
+	  "variant": "ne",
+	  "opaque": true
+	},
+	{
+	  "id": "road_corner_se",
+	  "kind": "road_corner",
+	  "variant": "se",
+	  "opaque": true
+	},
+	{
+	  "id": "road_corner_sw",
+	  "kind": "road_corner",
+	  "variant": "sw",
+	  "opaque": true
+	},
+	{
+	  "id": "road_inner_nw",
+	  "kind": "road_inner",
+	  "variant": "nw",
+	  "opaque": true
+	},
+	{
+	  "id": "road_inner_ne",
+	  "kind": "road_inner",
+	  "variant": "ne",
+	  "opaque": true
+	},
+	{
+	  "id": "road_inner_se",
+	  "kind": "road_inner",
+	  "variant": "se",
+	  "opaque": true
+	},
+	{
+	  "id": "road_inner_sw",
+	  "kind": "road_inner",
+	  "variant": "sw",
+	  "opaque": true
+	},
+	{
+	  "id": "deco_pebbles",
+	  "kind": "decoration",
+	  "variant": "pebbles",
+	  "opaque": false
+	},
+	{
+	  "id": "deco_grass_tuft",
+	  "kind": "decoration",
+	  "variant": "grass_tuft",
+	  "opaque": false
+	},
+	{
+	  "id": "deco_fallen_leaves",
+	  "kind": "decoration",
+	  "variant": "fallen_leaves",
+	  "opaque": false
+	},
+	{
+	  "id": "deco_dust_patch",
+	  "kind": "decoration",
+	  "variant": "dust_patch",
+	  "opaque": false
+	}
+  ],
+  "buildings": [
+	{
+	  "id": "roof_center",
+	  "kind": "roof",
+	  "variant": "center"
+	},
+	{
+	  "id": "roof_left",
+	  "kind": "roof",
+	  "variant": "left"
+	},
+	{
+	  "id": "roof_right",
+	  "kind": "roof",
+	  "variant": "right"
+	},
+	{
+	  "id": "roof_top_left",
+	  "kind": "roof",
+	  "variant": "top_left"
+	},
+	{
+	  "id": "roof_top",
+	  "kind": "roof",
+	  "variant": "top"
+	},
+	{
+	  "id": "roof_top_right",
+	  "kind": "roof",
+	  "variant": "top_right"
+	},
+	{
+	  "id": "eave_left",
+	  "kind": "eave",
+	  "variant": "left"
+	},
+	{
+	  "id": "eave_center",
+	  "kind": "eave",
+	  "variant": "center"
+	},
+	{
+	  "id": "eave_right",
+	  "kind": "eave",
+	  "variant": "right"
+	},
+	{
+	  "id": "wall_plaster",
+	  "kind": "wall",
+	  "variant": "plaster"
+	},
+	{
+	  "id": "wall_aged",
+	  "kind": "wall",
+	  "variant": "aged"
+	},
+	{
+	  "id": "wall_corner_left",
+	  "kind": "wall",
+	  "variant": "left"
+	},
+	{
+	  "id": "wall_corner_right",
+	  "kind": "wall",
+	  "variant": "right"
+	},
+	{
+	  "id": "wall_brick",
+	  "kind": "wall",
+	  "variant": "brick"
+	},
+	{
+	  "id": "wall_timber",
+	  "kind": "wall",
+	  "variant": "timber"
+	},
+	{
+	  "id": "door_wood_top",
+	  "kind": "door",
+	  "variant": "wood_top"
+	},
+	{
+	  "id": "door_wood_bottom",
+	  "kind": "door",
+	  "variant": "wood_bottom"
+	},
+	{
+	  "id": "window_wood",
+	  "kind": "window",
+	  "variant": "wood"
+	},
+	{
+	  "id": "window_colonial",
+	  "kind": "window",
+	  "variant": "colonial"
+	},
+	{
+	  "id": "door_colonial_top",
+	  "kind": "door",
+	  "variant": "colonial_top"
+	},
+	{
+	  "id": "door_colonial_bottom",
+	  "kind": "door",
+	  "variant": "colonial_bottom"
+	},
+	{
+	  "id": "vent",
+	  "kind": "window",
+	  "variant": "vent"
+	},
+	{
+	  "id": "porch_step",
+	  "kind": "step",
+	  "variant": "plain"
+	},
+	{
+	  "id": "pillar",
+	  "kind": "pillar",
+	  "variant": "plain"
+	},
+	{
+	  "id": "foundation",
+	  "kind": "foundation",
+	  "variant": "plaster"
+	},
+	{
+	  "id": "foundation_aged",
+	  "kind": "foundation",
+	  "variant": "aged"
+	},
+	{
+	  "id": "shutter_closed",
+	  "kind": "window",
+	  "variant": "shutter"
+	},
+	{
+	  "id": "post_left",
+	  "kind": "post",
+	  "variant": "left"
+	},
+	{
+	  "id": "post_right",
+	  "kind": "post",
+	  "variant": "right"
+	},
+	{
+	  "id": "booth_window",
+	  "kind": "window",
+	  "variant": "booth"
+	},
+	{
+	  "id": "roof_worn",
+	  "kind": "roof",
+	  "variant": "worn"
+	},
+	{
+	  "id": "wall_patch",
+	  "kind": "wall",
+	  "variant": "patch"
+	}
+  ],
+  "environment": [
+	{
+	  "id": "tree_broad",
+	  "name": "Pohon rindang",
+	  "cell": [
+		0,
+		0
+	  ],
+	  "size": [
+		32,
+		48
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			13,
+			23,
+			6,
+			25
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			14,
+			25,
+			3,
+			21
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			10,
+			46,
+			12,
+			2
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  12,
+			  0
+			],
+			[
+			  23,
+			  0
+			],
+			[
+			  23,
+			  4
+			],
+			[
+			  28,
+			  4
+			],
+			[
+			  28,
+			  8
+			],
+			[
+			  31,
+			  8
+			],
+			[
+			  31,
+			  22
+			],
+			[
+			  27,
+			  22
+			],
+			[
+			  27,
+			  27
+			],
+			[
+			  20,
+			  27
+			],
+			[
+			  20,
+			  30
+			],
+			[
+			  8,
+			  30
+			],
+			[
+			  8,
+			  26
+			],
+			[
+			  3,
+			  26
+			],
+			[
+			  3,
+			  22
+			],
+			[
+			  0,
+			  22
+			],
+			[
+			  0,
+			  8
+			],
+			[
+			  4,
+			  8
+			],
+			[
+			  4,
+			  4
+			],
+			[
+			  12,
+			  4
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  12,
+			  2
+			],
+			[
+			  22,
+			  2
+			],
+			[
+			  22,
+			  6
+			],
+			[
+			  26,
+			  6
+			],
+			[
+			  26,
+			  10
+			],
+			[
+			  29,
+			  10
+			],
+			[
+			  29,
+			  20
+			],
+			[
+			  25,
+			  20
+			],
+			[
+			  25,
+			  25
+			],
+			[
+			  18,
+			  25
+			],
+			[
+			  18,
+			  28
+			],
+			[
+			  10,
+			  28
+			],
+			[
+			  10,
+			  24
+			],
+			[
+			  5,
+			  24
+			],
+			[
+			  5,
+			  20
+			],
+			[
+			  2,
+			  20
+			],
+			[
+			  2,
+			  10
+			],
+			[
+			  6,
+			  10
+			],
+			[
+			  6,
+			  6
+			],
+			[
+			  12,
+			  6
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			6,
+			5,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			12,
+			4,
+			3
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			15,
+			4,
+			4,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			20,
+			13,
+			5,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			18,
+			5,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			10,
+			6,
+			2,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			12,
+			2,
+			1
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "tree_slim",
+	  "name": "Pohon ramping",
+	  "cell": [
+		2,
+		0
+	  ],
+	  "size": [
+		32,
+		48
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			14,
+			22,
+			5,
+			26
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			15,
+			24,
+			2,
+			23
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  12,
+			  0
+			],
+			[
+			  22,
+			  0
+			],
+			[
+			  22,
+			  5
+			],
+			[
+			  26,
+			  5
+			],
+			[
+			  26,
+			  13
+			],
+			[
+			  29,
+			  13
+			],
+			[
+			  29,
+			  24
+			],
+			[
+			  24,
+			  24
+			],
+			[
+			  24,
+			  31
+			],
+			[
+			  8,
+			  31
+			],
+			[
+			  8,
+			  26
+			],
+			[
+			  3,
+			  26
+			],
+			[
+			  3,
+			  14
+			],
+			[
+			  7,
+			  14
+			],
+			[
+			  7,
+			  5
+			],
+			[
+			  12,
+			  5
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  13,
+			  2
+			],
+			[
+			  20,
+			  2
+			],
+			[
+			  20,
+			  7
+			],
+			[
+			  24,
+			  7
+			],
+			[
+			  24,
+			  15
+			],
+			[
+			  27,
+			  15
+			],
+			[
+			  27,
+			  22
+			],
+			[
+			  22,
+			  22
+			],
+			[
+			  22,
+			  29
+			],
+			[
+			  10,
+			  29
+			],
+			[
+			  10,
+			  24
+			],
+			[
+			  5,
+			  24
+			],
+			[
+			  5,
+			  16
+			],
+			[
+			  9,
+			  16
+			],
+			[
+			  9,
+			  7
+			],
+			[
+			  13,
+			  7
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			11,
+			8,
+			5,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			17,
+			4,
+			3
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			19,
+			18,
+			5,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			13,
+			4,
+			2,
+			1
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "bush",
+	  "name": "Semak",
+	  "cell": [
+		4,
+		0
+	  ],
+	  "size": [
+		32,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  5,
+			  3
+			],
+			[
+			  12,
+			  3
+			],
+			[
+			  12,
+			  0
+			],
+			[
+			  22,
+			  0
+			],
+			[
+			  22,
+			  3
+			],
+			[
+			  28,
+			  3
+			],
+			[
+			  28,
+			  7
+			],
+			[
+			  32,
+			  7
+			],
+			[
+			  32,
+			  13
+			],
+			[
+			  27,
+			  13
+			],
+			[
+			  27,
+			  16
+			],
+			[
+			  4,
+			  16
+			],
+			[
+			  4,
+			  13
+			],
+			[
+			  0,
+			  13
+			],
+			[
+			  0,
+			  7
+			],
+			[
+			  5,
+			  7
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  6,
+			  5
+			],
+			[
+			  14,
+			  5
+			],
+			[
+			  14,
+			  2
+			],
+			[
+			  21,
+			  2
+			],
+			[
+			  21,
+			  5
+			],
+			[
+			  27,
+			  5
+			],
+			[
+			  27,
+			  9
+			],
+			[
+			  30,
+			  9
+			],
+			[
+			  30,
+			  12
+			],
+			[
+			  25,
+			  12
+			],
+			[
+			  25,
+			  14
+			],
+			[
+			  6,
+			  14
+			],
+			[
+			  6,
+			  12
+			],
+			[
+			  2,
+			  12
+			],
+			[
+			  2,
+			  9
+			],
+			[
+			  6,
+			  9
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			6,
+			5,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			18,
+			4,
+			4,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			23,
+			10,
+			3,
+			1
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "bush_dry",
+	  "name": "Semak kering",
+	  "cell": [
+		6,
+		0
+	  ],
+	  "size": [
+		32,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  5,
+			  3
+			],
+			[
+			  12,
+			  3
+			],
+			[
+			  12,
+			  0
+			],
+			[
+			  22,
+			  0
+			],
+			[
+			  22,
+			  3
+			],
+			[
+			  28,
+			  3
+			],
+			[
+			  28,
+			  7
+			],
+			[
+			  32,
+			  7
+			],
+			[
+			  32,
+			  13
+			],
+			[
+			  27,
+			  13
+			],
+			[
+			  27,
+			  16
+			],
+			[
+			  4,
+			  16
+			],
+			[
+			  4,
+			  13
+			],
+			[
+			  0,
+			  13
+			],
+			[
+			  0,
+			  7
+			],
+			[
+			  5,
+			  7
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  6,
+			  5
+			],
+			[
+			  14,
+			  5
+			],
+			[
+			  14,
+			  2
+			],
+			[
+			  21,
+			  2
+			],
+			[
+			  21,
+			  5
+			],
+			[
+			  27,
+			  5
+			],
+			[
+			  27,
+			  9
+			],
+			[
+			  30,
+			  9
+			],
+			[
+			  30,
+			  12
+			],
+			[
+			  25,
+			  12
+			],
+			[
+			  25,
+			  14
+			],
+			[
+			  6,
+			  14
+			],
+			[
+			  6,
+			  12
+			],
+			[
+			  2,
+			  12
+			],
+			[
+			  2,
+			  9
+			],
+			[
+			  6,
+			  9
+			]
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			6,
+			5,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			18,
+			4,
+			4,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			23,
+			10,
+			3,
+			1
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "fence_end_l",
+	  "name": "Pagar kayu end_l",
+	  "cell": [
+		4,
+		1
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			5,
+			8,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			6,
+			8,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			10,
+			8,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			11,
+			8,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			1,
+			4,
+			15
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			2,
+			2,
+			13
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			2,
+			1,
+			4
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "fence_center",
+	  "name": "Pagar kayu center",
+	  "cell": [
+		5,
+		1
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			16,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			6,
+			16,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			10,
+			16,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			11,
+			16,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			1,
+			4,
+			15
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			2,
+			2,
+			13
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			2,
+			1,
+			4
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "fence_end_r",
+	  "name": "Pagar kayu end_r",
+	  "cell": [
+		6,
+		1
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			8,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			6,
+			8,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			10,
+			8,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			11,
+			8,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			1,
+			4,
+			15
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			2,
+			2,
+			13
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			2,
+			1,
+			4
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "fence_vertical",
+	  "name": "Pagar kayu vertical",
+	  "cell": [
+		7,
+		1
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			1,
+			4,
+			15
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			2,
+			2,
+			13
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			2,
+			1,
+			4
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			0,
+			4,
+			16
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			0,
+			1,
+			16
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "fence_corner",
+	  "name": "Sudut pagar",
+	  "cell": [
+		4,
+		2
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			16,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			6,
+			16,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			10,
+			16,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			11,
+			16,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			1,
+			4,
+			15
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			2,
+			2,
+			13
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			2,
+			1,
+			4
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			0,
+			4,
+			16
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			0,
+			1,
+			16
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "brick_center",
+	  "name": "Dinding bata center",
+	  "cell": [
+		5,
+		2
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			2,
+			16,
+			14
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			2,
+			16,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			3,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			3,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			5,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			5,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			5,
+			4,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			5,
+			4,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			9,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			9,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			9,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			9,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			13,
+			3,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			13,
+			3,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			13,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			13,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			13,
+			4,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			13,
+			4,
+			1
+		  ],
+		  "color": "W"
+		}
+	  ]
+	},
+	{
+	  "id": "brick_end_l",
+	  "name": "Dinding bata end_l",
+	  "cell": [
+		6,
+		2
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			2,
+			16,
+			14
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			2,
+			16,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			3,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			3,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			5,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			5,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			5,
+			4,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			5,
+			4,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			9,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			9,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			9,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			9,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			13,
+			3,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			13,
+			3,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			13,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			13,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			13,
+			4,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			13,
+			4,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			0,
+			3,
+			16
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			1,
+			2,
+			13
+		  ],
+		  "color": "W"
+		}
+	  ]
+	},
+	{
+	  "id": "brick_end_r",
+	  "name": "Dinding bata end_r",
+	  "cell": [
+		7,
+		2
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			2,
+			16,
+			14
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			2,
+			16,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			3,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			3,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			5,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			5,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			5,
+			4,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			5,
+			4,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			9,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			9,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			9,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			9,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			13,
+			3,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			13,
+			3,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			13,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			13,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			13,
+			4,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			13,
+			4,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			13,
+			0,
+			3,
+			16
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			13,
+			1,
+			2,
+			13
+		  ],
+		  "color": "W"
+		}
+	  ]
+	},
+	{
+	  "id": "brick_pillar",
+	  "name": "Pilar bata",
+	  "cell": [
+		0,
+		3
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			2,
+			16,
+			14
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			2,
+			16,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			3,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			3,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			5,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			5,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			5,
+			4,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			5,
+			4,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			9,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			9,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			9,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			9,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			13,
+			3,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			13,
+			3,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			13,
+			7,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			13,
+			7,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			13,
+			4,
+			3
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			13,
+			4,
+			1
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			0,
+			8,
+			16
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			1,
+			6,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			4,
+			6,
+			10
+		  ],
+		  "color": "W"
+		}
+	  ]
+	},
+	{
+	  "id": "lamp_post",
+	  "name": "Tiang lentera",
+	  "cell": [
+		1,
+		3
+	  ],
+	  "size": [
+		16,
+		48
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			10,
+			3,
+			38
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			12,
+			1,
+			34
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			45,
+			9,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  2,
+			  2
+			],
+			[
+			  5,
+			  0
+			],
+			[
+			  11,
+			  0
+			],
+			[
+			  14,
+			  2
+			],
+			[
+			  14,
+			  4
+			],
+			[
+			  2,
+			  4
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			4,
+			8,
+			10
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			5,
+			6,
+			6
+		  ],
+		  "color": "M"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			6,
+			5,
+			3,
+			5
+		  ],
+		  "color": "C"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			5,
+			1,
+			6
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			3,
+			12,
+			10,
+			2
+		  ],
+		  "color": "D"
+		}
+	  ]
+	},
+	{
+	  "id": "crate_pile",
+	  "name": "Tumpukan peti",
+	  "cell": [
+		2,
+		3
+	  ],
+	  "size": [
+		32,
+		32
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			0,
+			16,
+			16
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			9,
+			1,
+			14,
+			3
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			9,
+			5,
+			14,
+			10
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			10,
+			5,
+			2,
+			9
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			20,
+			5,
+			2,
+			9
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			7,
+			3,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			15,
+			9,
+			3,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			18,
+			11,
+			2,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			9,
+			14,
+			14,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			16,
+			16,
+			16
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			17,
+			14,
+			3
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			21,
+			14,
+			10
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			2,
+			21,
+			2,
+			9
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			21,
+			2,
+			9
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			23,
+			3,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			25,
+			3,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			10,
+			27,
+			2,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			30,
+			14,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			16,
+			16,
+			16,
+			16
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			17,
+			17,
+			14,
+			3
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			17,
+			21,
+			14,
+			10
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			18,
+			21,
+			2,
+			9
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			28,
+			21,
+			2,
+			9
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			20,
+			23,
+			3,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			23,
+			25,
+			3,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			26,
+			27,
+			2,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			17,
+			30,
+			14,
+			1
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "sack_pile",
+	  "name": "Tumpukan karung",
+	  "cell": [
+		4,
+		3
+	  ],
+	  "size": [
+		32,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  2,
+			  5
+			],
+			[
+			  5,
+			  2
+			],
+			[
+			  11,
+			  2
+			],
+			[
+			  14,
+			  6
+			],
+			[
+			  14,
+			  13
+			],
+			[
+			  11,
+			  16
+			],
+			[
+			  2,
+			  16
+			],
+			[
+			  0,
+			  12
+			],
+			[
+			  0,
+			  8
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			3,
+			5,
+			9,
+			9
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			2,
+			5,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			3,
+			12,
+			9,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  17,
+			  7
+			],
+			[
+			  20,
+			  4
+			],
+			[
+			  27,
+			  4
+			],
+			[
+			  30,
+			  8
+			],
+			[
+			  32,
+			  12
+			],
+			[
+			  29,
+			  16
+			],
+			[
+			  17,
+			  16
+			],
+			[
+			  15,
+			  12
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			18,
+			7,
+			10,
+			7
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			19,
+			7,
+			7,
+			2
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "fern",
+	  "name": "Pakis",
+	  "cell": [
+		6,
+		3
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			6,
+			2,
+			10
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  7,
+			  13
+			],
+			[
+			  1,
+			  5
+			],
+			[
+			  3,
+			  4
+			],
+			[
+			  7,
+			  8
+			],
+			[
+			  5,
+			  1
+			],
+			[
+			  8,
+			  0
+			],
+			[
+			  10,
+			  7
+			],
+			[
+			  14,
+			  3
+			],
+			[
+			  16,
+			  6
+			],
+			[
+			  10,
+			  13
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			5,
+			1,
+			9
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			7,
+			3,
+			1
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "rock",
+	  "name": "Batu kecil",
+	  "cell": [
+		7,
+		3
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  4,
+			  6
+			],
+			[
+			  10,
+			  4
+			],
+			[
+			  14,
+			  7
+			],
+			[
+			  16,
+			  12
+			],
+			[
+			  12,
+			  15
+			],
+			[
+			  3,
+			  15
+			],
+			[
+			  0,
+			  11
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  4,
+			  7
+			],
+			[
+			  10,
+			  6
+			],
+			[
+			  13,
+			  8
+			],
+			[
+			  14,
+			  11
+			],
+			[
+			  10,
+			  13
+			],
+			[
+			  3,
+			  13
+			],
+			[
+			  2,
+			  10
+			]
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			7,
+			5,
+			2
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "barrel",
+	  "name": "Tong kayu",
+	  "cell": [
+		0,
+		4
+	  ],
+	  "size": [
+		16,
+		32
+	  ],
+	  "ops": [
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  3,
+			  0
+			],
+			[
+			  13,
+			  0
+			],
+			[
+			  16,
+			  5
+			],
+			[
+			  16,
+			  26
+			],
+			[
+			  13,
+			  32
+			],
+			[
+			  3,
+			  32
+			],
+			[
+			  0,
+			  26
+			],
+			[
+			  0,
+			  5
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			2,
+			5,
+			12,
+			22
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			2,
+			8,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			3,
+			5,
+			2,
+			22
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			4,
+			1,
+			25
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			8,
+			14,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			22,
+			14,
+			3
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			3,
+			28,
+			10,
+			2
+		  ],
+		  "color": "W"
+		}
+	  ]
+	},
+	{
+	  "id": "banana_plant",
+	  "name": "Tanaman pisang",
+	  "cell": [
+		4,
+		4
+	  ],
+	  "size": [
+		32,
+		32
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			14,
+			18,
+			5,
+			14
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			15,
+			20,
+			2,
+			12
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  21
+			],
+			[
+			  3,
+			  6
+			],
+			[
+			  0,
+			  6
+			],
+			[
+			  1,
+			  12
+			],
+			[
+			  12,
+			  25
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  20
+			],
+			[
+			  10,
+			  0
+			],
+			[
+			  6,
+			  0
+			],
+			[
+			  8,
+			  9
+			],
+			[
+			  14,
+			  24
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  19
+			],
+			[
+			  25,
+			  1
+			],
+			[
+			  30,
+			  2
+			],
+			[
+			  27,
+			  10
+			],
+			[
+			  19,
+			  24
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  21
+			],
+			[
+			  32,
+			  14
+			],
+			[
+			  32,
+			  20
+			],
+			[
+			  23,
+			  25
+			],
+			[
+			  17,
+			  26
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  15,
+			  22
+			],
+			[
+			  2,
+			  22
+			],
+			[
+			  0,
+			  27
+			],
+			[
+			  9,
+			  29
+			],
+			[
+			  16,
+			  26
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  21
+			],
+			[
+			  10,
+			  14
+			],
+			[
+			  8,
+			  14
+			],
+			[
+			  9,
+			  17
+			],
+			[
+			  14,
+			  23
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  21
+			],
+			[
+			  13,
+			  11
+			],
+			[
+			  11,
+			  11
+			],
+			[
+			  12,
+			  15
+			],
+			[
+			  15,
+			  23
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  20
+			],
+			[
+			  21,
+			  11
+			],
+			[
+			  23,
+			  12
+			],
+			[
+			  22,
+			  16
+			],
+			[
+			  18,
+			  23
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  21
+			],
+			[
+			  24,
+			  18
+			],
+			[
+			  24,
+			  21
+			],
+			[
+			  20,
+			  23
+			],
+			[
+			  17,
+			  24
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  16,
+			  22
+			],
+			[
+			  9,
+			  22
+			],
+			[
+			  8,
+			  24
+			],
+			[
+			  13,
+			  25
+			],
+			[
+			  16,
+			  24
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			13,
+			10,
+			1,
+			13
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			19,
+			11,
+			1,
+			10
+		  ],
+		  "color": "W"
+		}
+	  ]
+	},
+	{
+	  "id": "grass_tuft",
+	  "name": "Rumpun rumput",
+	  "cell": [
+		6,
+		4
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  2,
+			  16
+			],
+			[
+			  0,
+			  10
+			],
+			[
+			  4,
+			  12
+			],
+			[
+			  4,
+			  5
+			],
+			[
+			  7,
+			  11
+			],
+			[
+			  9,
+			  3
+			],
+			[
+			  11,
+			  11
+			],
+			[
+			  15,
+			  7
+			],
+			[
+			  14,
+			  16
+			]
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			12,
+			1,
+			4
+		  ],
+		  "color": "W"
+		}
+	  ]
+	},
+	{
+	  "id": "bucket",
+	  "name": "Ember kayu",
+	  "cell": [
+		7,
+		4
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			1,
+			8,
+			2
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			2,
+			3,
+			2,
+			7
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			3,
+			2,
+			7
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  2,
+			  6
+			],
+			[
+			  14,
+			  6
+			],
+			[
+			  12,
+			  16
+			],
+			[
+			  4,
+			  16
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			7,
+			8,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			10,
+			6,
+			4
+		  ],
+		  "color": "W"
+		}
+	  ]
+	},
+	{
+	  "id": "bench",
+	  "name": "Bangku kayu",
+	  "cell": [
+		2,
+		5
+	  ],
+	  "size": [
+		32,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			2,
+			8,
+			4,
+			8
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			26,
+			8,
+			4,
+			8
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			0,
+			32,
+			4
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			1,
+			30,
+			2
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			0,
+			5,
+			32,
+			5
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			6,
+			30,
+			2
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			1,
+			6,
+			30,
+			1
+		  ],
+		  "color": "B"
+		}
+	  ]
+	},
+	{
+	  "id": "clay_pot",
+	  "name": "Pot tanah liat",
+	  "cell": [
+		6,
+		5
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "polygon",
+		  "points": [
+			[
+			  3,
+			  5
+			],
+			[
+			  13,
+			  5
+			],
+			[
+			  14,
+			  8
+			],
+			[
+			  12,
+			  16
+			],
+			[
+			  4,
+			  16
+			],
+			[
+			  2,
+			  8
+			]
+		  ],
+		  "color": "D"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			3,
+			5,
+			10,
+			2
+		  ],
+		  "color": "M"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			8,
+			8,
+			5
+		  ],
+		  "color": "R"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			8,
+			2,
+			4
+		  ],
+		  "color": "M"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			0,
+			2,
+			6
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			1,
+			3,
+			2
+		  ],
+		  "color": "O"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			9,
+			2,
+			4,
+			2
+		  ],
+		  "color": "O"
+		}
+	  ]
+	},
+	{
+	  "id": "dry_plant",
+	  "name": "Tanaman kering",
+	  "cell": [
+		7,
+		5
+	  ],
+	  "size": [
+		16,
+		16
+	  ],
+	  "ops": [
+		{
+		  "type": "rect",
+		  "rect": [
+			7,
+			5,
+			2,
+			11
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			4,
+			8,
+			4,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			3,
+			5,
+			1,
+			4
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			8,
+			11,
+			5,
+			1
+		  ],
+		  "color": "B"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			12,
+			7,
+			1,
+			5
+		  ],
+		  "color": "W"
+		},
+		{
+		  "type": "rect",
+		  "rect": [
+			5,
+			15,
+			6,
+			1
+		  ],
+		  "color": "D"
+		}
+	  ]
+	}
+  ],
+  "blueprints": [
+	{
+	  "id": "common_house",
+	  "name": "Rumah masyarakat",
+	  "rows": [
+		[
+		  "roof_top_left",
+		  "roof_top",
+		  "roof_top",
+          "roof_top_right"
+		],
+		[
+		  "roof_left",
+		  "roof_center",
+		  "roof_center",
+          "roof_right"
+		],
+		[
+		  "eave_left",
+		  "eave_center",
+		  "eave_center",
+          "eave_right"
+		],
+		[
+		  "wall_corner_left",
+		  "window_wood",
+		  "door_wood_top",
+          "wall_corner_right"
+		],
+		[
+		  "foundation",
+		  "foundation",
+		  "door_wood_bottom",
+          "foundation"
+		]
+	  ]
+	},
+	{
+	  "id": "colonial_house",
+	  "name": "Rumah inspirasi kolonial",
+	  "rows": [
+		[
+		  "roof_top_left",
+		  "roof_top",
+		  "roof_top",
+		  "roof_top",
+		  "roof_top",
+          "roof_top_right"
+		],
+		[
+		  "roof_left",
+		  "roof_center",
+		  "roof_center",
+		  "roof_center",
+		  "roof_center",
+          "roof_right"
+		],
+		[
+		  "eave_left",
+		  "eave_center",
+		  "eave_center",
+		  "eave_center",
+		  "eave_center",
+          "eave_right"
+		],
+		[
+		  "pillar",
+		  "window_colonial",
+		  "wall_plaster",
+		  "door_colonial_top",
+		  "window_colonial",
+          "pillar"
+		],
+		[
+		  "pillar",
+		  "foundation",
+		  "foundation",
+		  "door_colonial_bottom",
+		  "foundation",
+          "pillar"
+		],
+		[
+		  "porch_step",
+		  "porch_step",
+		  "porch_step",
+		  "porch_step",
+		  "porch_step",
+          "porch_step"
+		]
+	  ]
+	},
+	{
+	  "id": "aged_building",
+	  "name": "Bangunan tua",
+	  "rows": [
+		[
+		  "roof_top_left",
+		  "roof_top",
+          "roof_top_right"
+		],
+		[
+		  "roof_left",
+		  "roof_worn",
+          "roof_right"
+		],
+		[
+		  "eave_left",
+		  "eave_center",
+          "eave_right"
+		],
+		[
+		  "wall_aged",
+		  "shutter_closed",
+          "door_wood_top"
+		],
+		[
+		  "foundation_aged",
+		  "foundation_aged",
+          "door_wood_bottom"
+		]
+	  ]
+	},
+	{
+	  "id": "guard_post",
+	  "name": "Pos penjagaan",
+	  "rows": [
+		[
+		  "roof_top_left",
+		  "roof_top",
+          "roof_top_right"
+		],
+		[
+		  "eave_left",
+		  "eave_center",
+          "eave_right"
+		],
+		[
+		  "post_left",
+		  "booth_window",
+          "post_right"
+		],
+		[
+		  "post_left",
+		  "wall_timber",
+          "post_right"
+		]
+	  ]
+	}
+  ]
+}

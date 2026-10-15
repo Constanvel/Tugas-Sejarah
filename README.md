@@ -83,6 +83,8 @@ Fondasi pipeline aset visual tersedia di [docs/art/README.md](docs/art/README.md
 
 Kategori karakter telah dibuat di assets/sprites/characters: player dan enemy 12 frame empat arah, serta civilian satu pose. [Panduan karakter dan preview](docs/art/characters/README.md) mencatat layout, baseline kaki, regenerasi dan pengujian. Aset baru belum mengganti sprite di scene gameplay.
 
+Kategori lingkungan kini menyediakan tiga atlas PNG di assets/tilesets: 40 terrain, 32 modul bangunan dan 25 objek lingkungan. [Panduan tileset](docs/art/tilesets/README.md) berisi contact sheet, preview map kecil, manifest, koordinat dan pengaturan margin/separation Godot. Generator dapat dijalankan ulang; aset ini belum mengganti map gameplay atau resource TileSet.
+
 [Rencana implementasi lima fase](docs/implementation_plan.md) menjelaskan urutan dan Definition of Done setiap fase. Phase 2 baru dimulai pada tugas berikutnya setelah fondasi diterima: interaksi/dialog, HP, aksi arcade, enemy, Game Over dan Retry. Build Windows serta pemeriksaan fakta sejarah lengkap termasuk tahap release; fondasi ini belum menjadi MVP lengkap.
 
 ## Template Git
